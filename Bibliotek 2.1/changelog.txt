@@ -1,0 +1,14 @@
+NITH bibliotek
+
+
+Changelog
+
+-------------------
+v2.1
+
+* Changed website width to 800px (previous value: 960px)
+* Changed header logo typeface
+* Resized and replaced battlestation console pictures
+* Various code optimizations
+
+v2.0 Initial Release

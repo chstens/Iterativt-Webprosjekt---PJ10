@@ -1,0 +1,234 @@
+
+html {
+	font-family: 'Trebuchet MS', sans-serif, Arial, Helvetica;
+}
+body {
+	background-color: rgb(19, 19, 19);
+	margin: 0;
+}
+#background {
+	background: url(../images/bg-body.jpg);
+	background-attachment: fixed;
+	background-clip: border-box;
+	background-color: rgb(19, 19, 19);
+		background-origin: padding-box;
+	background-position: 50% 0%;
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+#page {
+	width: 800px;
+	margin: 0 auto;
+}
+
+img {
+	border: 0;
+}
+
+
+/*------------------------------ HEADER ------------------------------*/
+#header {
+	background: url(../images/Logo.png) no-repeat center top;
+	min-height: 300px;
+	margin-bottom: 0px;
+}
+
+/** Logo **/
+#logo {
+	clear: both;
+	display: block;
+	height: 150px;
+	width: 950px;
+	margin: 0 auto;
+}
+
+/** Navigation **/
+#navigation {
+	height: 40px;
+	list-style-type: none;
+	margin: 0;
+	padding: 30px 20px 12px 0;
+}
+#navigation li {
+	float: left;
+	font-family: 'Arial';
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 40px;
+	width: 150px;
+	text-align: center;
+}
+#navigation a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#navigation a:hover, #navigation li.selected a {
+	color: #0099FF;
+}
+
+/*------------------------------ CONTENTS ------------------------------*/
+#contents {
+	margin: 0 0 40px;
+	padding: 0 5px;
+}
+
+#main {
+	background: url(../images/border-dashed.jpg) repeat-x left bottom;
+	margin: 0 0 30px;
+	padding: 0 0 30px;
+}
+
+#main h3 {
+	color: #FFFFFF;
+	background: url(../images/border-dashed.jpg) repeat-x left bottom;
+	line-height: 30px;
+	margin: 0 0 20px 0px;
+	padding: 0 0 10px;
+}
+#main p {
+	color: #FFFFFF;
+	font-size: 16px;
+	line-height: 20px;
+	margin: 0;
+	padding: 0 0 20px;
+}
+#main p a {
+	color: #FFFFFF;
+}
+#main ul li {
+	color: #FFFFFF;
+}
+#main address {
+	color: #ffffff;
+	font-style: normal;
+	width: 350px;
+	margin: 0 auto;
+	text-align: center;
+}
+#main address span {
+	color: #FFFFFF;
+	display: block;
+	font-size: 18px;
+	line-height: 20px;
+	margin: 20px 0;
+	width: 350px;
+}
+#main img {
+	border: 0px solid #0099FF;
+}
+
+
+#featured ul {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+}
+#featured ul li {
+	float: left;
+	height: 150px;
+	width: 175px;
+	margin-right: 10px;
+	padding: 6px 6px 5px;
+}
+#featured ul li.last {
+	margin-right: 0;
+}
+#featured ul li img {
+	border: 4px solid #0099FF;
+}
+#featured ul li img:hover { 
+	border: 6px solid #0099FF;
+}
+
+
+/*------------------------------ Main 2 ------------------------------*/
+#main2 {
+	background: url(../images/border-dashed.jpg) repeat-x left bottom;
+	padding: 0 0 20px;
+	position: relative;
+}
+
+#main2 span {
+	float: left;
+	display: block;
+	height: 253px;
+	width: 204px;
+	margin-bottom: 6px;
+	margin-right: 40px;
+	padding: 6px 6px 15px;
+}
+#main2 span img {
+	border: 2px solid #0099FF;
+}
+#main2 h3 {
+	color: #FFFFFF;
+	background: url(../images/border-dashed.jpg) repeat-x left bottom;
+	line-height: 30px;
+	margin: 0 0 20px 258px;
+	padding: 0 0 10px;
+}
+#main2 p {
+	color: #FFFFFF;
+	max-height: 160px;
+	line-height: 20px;
+	margin: 0 0 20px 258px;
+	padding: 0 0 20px;
+	overflow: hidden;
+}
+#main2 p a {
+	color: #FFFFFF;
+}
+#main2 ul li {
+	color: #FFFFFF;
+	max-height: 100px;
+	line-height: 20px;
+	margin: 0 0 20px 258px;
+	padding: 0 0 5px;
+}
+
+
+/*------------------------------ FOOTER ------------------------------*/
+#footer {
+	padding: 0 5px;
+}
+#description {
+	background: url(../images/border-dashed.jpg) repeat-x left bottom;
+	margin: 0 0 0px;
+	padding: 0 0 50px;
+}
+#description div {
+	float: left;
+	width: 180px;
+	margin-right: 50px;
+}
+#description div a.logo {
+	background: url(../images/logo-nith.png) no-repeat;
+	display: block;
+	height: 40px;
+	width: 175px;
+	margin: 0 0 10px;
+}
+#description div span {
+	color: #FFFFFF;
+	display: block;
+	font-size: 11px;
+	line-height: 20px;
+}
+#description div span a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#description p {
+	color: #FFFFFF;
+	font-size: 13px;
+	line-height: 20px;
+	margin: 20px 0;
+	text-align: justify;
+}
+#description p a {
+	color: #FFFFFF;
+}
+
+
+
