@@ -33,6 +33,12 @@ img {
 	margin-bottom: 0px;
 }
 
+#divFlags2{
+position: absolute;	
+margin-left: 800px;
+margin-top: -130px;
+}
+
 /** Logo **/
 #logo {
 	clear: both;
@@ -204,6 +210,8 @@ text-decoration: none;
 
 }
 /*------------------------------ CONTENTS ------------------------------*/
+
+
 #contents {
 	margin: 0 0 40px;
 	padding: 0 5px;
@@ -260,6 +268,7 @@ text-decoration: none;
 	background: url(../images/border-dashed.jpg) repeat-x left bottom;
 	padding: 0 0 20px;
 	position: relative;
+	margin-top: 50px;
 }
 
 #main2 span {
@@ -299,6 +308,62 @@ text-decoration: none;
 	line-height: 20px;
 	margin: 0 0 20px 258px;
 	padding: 0 0 5px;
+}
+
+
+/*-------Main3---------*/
+#main3 {
+	background: url(../images/border-dashed.jpg) repeat-x left bottom;
+	margin: 0 0 30px;
+	padding: 0 0 30px;
+	height: 400px;
+}
+
+#main3 h3 {
+	color: #FFFFFF;
+	background: url(../images/border-dashed.jpg) repeat-x left bottom;
+	line-height: 30px;
+	margin: 0 0 20px 0px;
+	padding: 0 0 10px;
+	
+}
+#main3 p {
+	color: #FFFFFF;
+	font-size: 16px;
+	line-height: 20px;
+	margin: 0;
+	padding: 0 0 20px;
+}
+#main3 p a {
+	color: #FFFFFF;
+}
+#main3 ul li {
+	color: #FFFFFF;
+}
+#main3 address {
+	color: #ffffff;
+	font-style: normal;
+	width: 350px;
+	margin: 0 auto;
+	text-align: center;
+}
+#main3 address span {
+	color: #FFFFFF;
+	display: block;
+	font-size: 18px;
+	line-height: 20px;
+	margin: 20px 0;
+	width: 350px;
+}
+#main3 img {
+	border: 0px solid #0099FF;
+}
+
+#divFlags img {
+position: inherit;
+padding: 40px;
+margin-top: -100px;
+
 }
 
 
