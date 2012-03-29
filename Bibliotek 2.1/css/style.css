@@ -409,5 +409,13 @@ margin-top: -100px;
 	color: #FFFFFF;
 }
 
+#description img {
+position: absolute;
+margin-top: -50px;
+margin-left: 380px;
+
+
+}
+
 
 
