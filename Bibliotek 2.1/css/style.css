@@ -230,6 +230,19 @@ text-decoration: none;
 	margin: 0 0 20px 0px;
 	padding: 0 0 10px;
 }
+
+#main h3 li{
+text-decoration: none;
+display: inline;
+padding-left: 170px;
+}
+
+#main a {
+text-decoration: none;
+color: #FFFFFF;
+
+}
+
 #main p {
 	color: #FFFFFF;
 	font-size: 16px;
@@ -260,6 +273,10 @@ text-decoration: none;
 }
 #main img {
 	border: 0px solid #0099FF;
+}
+
+#main ol {
+color: #FFFFFF;
 }
 
 
